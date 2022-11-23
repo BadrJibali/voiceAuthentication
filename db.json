@@ -1,0 +1,9 @@
+{
+  "authentication": {
+    "userID": "dsdsdds",
+    "path": "blob:http://localhost:8080/9aa27128-6b18-42b5-b2c5-ad703a6b4316"
+  },
+  "file-upload": {
+    "path": "C:\\fakepath\\file.mp3"
+  }
+}

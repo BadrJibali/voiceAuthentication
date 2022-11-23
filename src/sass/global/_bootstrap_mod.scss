@@ -1,0 +1,28 @@
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    flex-wrap: nowrap;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.form-control:focus {
+    color: $main-color;
+    background-color: #fff;
+    border-color: transparent;
+    box-shadow: 0 0 0 0.02rem $second-main-color;
+}
+
+.form-control {
+    border: none;
+}

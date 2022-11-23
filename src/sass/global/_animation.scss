@@ -1,0 +1,57 @@
+/////////////////////////////////////////////////////////////////
+////////////////////////// Start Shine //////////////////////////
+/////////////////////////////////////////////////////////////////
+.animate {
+    background: linear-gradient(90deg, $main-color, $first-main-color, $main-color);
+    // letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 6s linear infinite;
+    position: relative;
+}
+
+@keyframes shine {
+    0% {
+        background-position-x: -500%;
+    }
+
+    100% {
+        background-position-x: 500%;
+    }
+}
+
+/////////////////////////////////////////////////////////////////
+////////////////////////// End Shine ////////////////////////////
+/////////////////////////////////////////////////////////////////
+
+
+/* Enter and leave animations can use different */
+/* durations and timing functions.              */
+.slide-fade-enter-active {
+    transition: all .3s ease;
+}
+
+.slide-fade-leave-active {
+    transition: all 0s ease;
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to {
+    transform: translateX(2rem);
+    opacity: 0;
+}
+
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .4s;
+}
+
+.fade-enter,
+.fade-leave-to
+    {
+    opacity: 0;
+}

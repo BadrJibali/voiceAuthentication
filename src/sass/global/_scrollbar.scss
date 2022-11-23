@@ -1,0 +1,24 @@
+/* Start Scrollbar */
+::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: $second-main-color;
+    border-radius: 2rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $first-main-color;
+    border-radius: 2rem;
+    transition: $main-transition;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $main-color;
+}
+
+/* End Scrollbar */
